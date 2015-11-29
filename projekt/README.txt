@@ -16,6 +16,7 @@ WYMAGANIA:
 -akceptowalne formy p³atnoœci
 -dostêp techniczny dla osób upowa¿nionych ???
 -sposób inicjalizacji
+-jeœli administrator chce coœ kupiæ traktujemy go jako klienta, analogicznie pracownika
 
 co s¹dzisz o vendor2.gif
 
