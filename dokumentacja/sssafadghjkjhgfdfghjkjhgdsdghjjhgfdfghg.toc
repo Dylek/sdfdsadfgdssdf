@@ -1,0 +1,5 @@
+\contentsline {section}{\numberline {1}Automat z przek?skami }{2}
+\contentsline {subsection}{\numberline {1.1}Co to jest?}{2}
+\contentsline {subsection}{\numberline {1.2}Analiza wymaga?}{2}
+\contentsline {section}{\numberline {2}Diagram przypadk\'ow u?ycia}{2}
+\contentsline {subsection}{\numberline {2.1}Diagram sekwencji}{2}

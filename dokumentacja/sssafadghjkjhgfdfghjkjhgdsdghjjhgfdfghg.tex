@@ -1,0 +1,99 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[latin2]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}	% do impotu grafik
+\usepackage{amsthm}
+\usepackage{amsfonts}
+\usepackage{xcolor}
+
+\usepackage{listings} %do impotu kodu
+\author{Marcin J?drzejczyk \and Sebastian Katszer }
+\title{Projekt UML Automatu z przek?skami }
+
+
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}} % Defines a new command for the horizontal lines, change thickness here
+\newtheorem{defi}{Definicja}
+\renewcommand{\contentsname}{Spis tre?ci}
+\renewcommand{\refname}{Bibliografia}
+\renewcommand{\figurename}{Rysunek}
+
+
+\begin{document}
+
+%\maketitle	%robi stronê tytu³ow±
+\begin{titlepage}
+
+
+\center % Center everything on the page
+%----------------------------------------------------------------------------------------
+%	HEADING SECTIONS
+%----------------------------------------------------------------------------------------
+
+\textsc{\LARGE Akademia Górniczo-Hutnicza    \\im. Stanis?awa Staszica w Krakowie}\\[1.5cm] % Name of your university/college
+\textsc{\Large Analiza i modelowanie oprogramowania}\\[0.5cm] % Major heading such as course name
+%\textsc{\large Minor Heading}\\[0.5cm] % Minor heading such as course title
+
+%----------------------------------------------------------------------------------------
+%	TITLE SECTION
+%----------------------------------------------------------------------------------------
+
+\HRule \\[0.4cm]
+{ \huge \bfseries Projekt UML Automatu z przek?skami}\\[0.4cm] % Title of your document
+\HRule \\[1.5cm]
+ 
+%----------------------------------------------------------------------------------------
+%	AUTHOR SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{minipage}{0.4\textwidth}
+\begin{flushleft} \large 
+Autorzy:\\
+Marcin \textsc{J?drzejczyk} \\
+Sebastian\textsc{ Katszer}\\
+
+\end{flushleft}
+\end{minipage}
+~
+\begin{minipage}{0.4\textwidth}
+\begin{flushright} \large
+\emph{Prowadz?cy:}\\
+ Dr in?. Wojciech \textsc{Szmuc} % Supervisor's Name
+\end{flushright}
+\end{minipage} \\[4cm]
+
+{\large \today}\\[3cm]
+\vfill
+\end{titlepage}
+%----------------------------------------------------------------------------------------
+%	DOCUMENT SECTION
+%----------------------------------------------------------------------------------------
+\tableofcontents %robi spis tre¶ci	- 3 kompilacje
+\newpage
+\section{Automat z przek?skami }
+\subsection{Co to jest?}
+
+\subsection{Analiza wymaga?}
+
+\begin{tabular}{|c|c|c|c|c|} \hline
+ID & OPIS & PRIORYTET & KRYTYCZNO?? & HARMONOGRAM \\ \hline
+R01 & Wydawanie reszty & Wysoki & ?rednia & Release 1\\ \hline
+R02 & Dost?p techniczny dla osób upowa?nionych & Wysoki & Wysoka & Release 1 \\ \hline
+R03 & Sposób inicjalizacji & ?redni & ?rednia & Release 1\\ \hline
+R04 & Wydawanie produktu & ?redni & ?rednia & Release 1 \\ \hline
+\end{tabular}
+
+\section{Diagram przypadków u?ycia}
+\begin{figure}[ht]
+\centerline{\includegraphics[scale=0.5]{r2}}
+\caption{Diagram sekwencji}
+\end{figure}
+\subsection{Diagram sekwencji}
+
+\begin{figure}[ht]
+\centerline{\includegraphics[scale=0.5]{r2}}
+\caption{Diagram sekwencji}
+\end{figure}
+
+%\bibliographystyle{unsrt}
+%\bibliography{bib2}
+\end{document}

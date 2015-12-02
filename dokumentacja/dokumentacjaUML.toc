@@ -1,0 +1,6 @@
+\select@language {polish}
+\contentsline {section}{\numberline {1}Automat z przek\IeC {\k a}skami }{2}
+\contentsline {subsection}{\numberline {1.1}Co to jest?}{2}
+\contentsline {subsection}{\numberline {1.2}Analiza wymaga\IeC {\'n}}{2}
+\contentsline {section}{\numberline {2}Diagram przypadk\IeC {\'o}w u\IeC {\.z}ycia}{3}
+\contentsline {subsection}{\numberline {2.1}Diagram sekwencji}{3}
