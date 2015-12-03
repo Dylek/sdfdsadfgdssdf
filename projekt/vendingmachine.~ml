@@ -978,6 +978,24 @@
 <XPD:ATTR name="#Associations" type="integer">2</XPD:ATTR>
 <XPD:REF name="Associations[0]">ue5GUgUf50iY91sRf3D3nAAA</XPD:REF>
 <XPD:REF name="Associations[1]">5L4teuj1VUSQSTBJA/qD8QAA</XPD:REF>
+<XPD:ATTR name="#OwnedCollaborationInstanceSets" type="integer">1</XPD:ATTR>
+<XPD:OBJ name="OwnedCollaborationInstanceSets[0]" type="UMLCollaborationInstanceSet" guid="JVhMdIq1GUayLWrRlVlu9AAA">
+<XPD:ATTR name="Name" type="string">CollaborationInstanceSet1</XPD:ATTR>
+<XPD:REF name="RepresentedClassifier">MEzdZW/jh0SC5dS8o4BV9QAA</XPD:REF>
+<XPD:ATTR name="#InteractionInstanceSets" type="integer">1</XPD:ATTR>
+<XPD:OBJ name="InteractionInstanceSets[0]" type="UMLInteractionInstanceSet" guid="YL5CRkbGC0CpbQwMlzVk7AAA">
+<XPD:ATTR name="Name" type="string">InteractionInstanceSet1</XPD:ATTR>
+<XPD:REF name="Context">JVhMdIq1GUayLWrRlVlu9AAA</XPD:REF>
+<XPD:ATTR name="#OwnedDiagrams" type="integer">1</XPD:ATTR>
+<XPD:OBJ name="OwnedDiagrams[0]" type="UMLSequenceDiagram" guid="QqgXk2SgFEaCQ/vm0syo1wAA">
+<XPD:ATTR name="Name" type="string">SequenceDiagram1</XPD:ATTR>
+<XPD:REF name="DiagramOwner">YL5CRkbGC0CpbQwMlzVk7AAA</XPD:REF>
+<XPD:OBJ name="DiagramView" type="UMLSequenceDiagramView" guid="o4ekC65TG0KhPjmf3m8FQAAA">
+<XPD:REF name="Diagram">QqgXk2SgFEaCQ/vm0syo1wAA</XPD:REF>
+</XPD:OBJ>
+</XPD:OBJ>
+</XPD:OBJ>
+</XPD:OBJ>
 <XPD:ATTR name="#Extenders" type="integer">1</XPD:ATTR>
 <XPD:REF name="Extenders[0]">TlDNUK0s9kqjJvHOgQvSYQAA</XPD:REF>
 <XPD:ATTR name="#Includers" type="integer">1</XPD:ATTR>
@@ -1264,7 +1282,7 @@
 <XPD:REF name="Associations[1]">gNqd6xC1tECOMkQBt4IkJQAA</XPD:REF>
 <XPD:REF name="Associations[2]">UpWyxxulOUq7/UFiL5llhAAA</XPD:REF>
 <XPD:REF name="Associations[3]">r2K8lu0zpU6SZPth6INaLwAA</XPD:REF>
-<XPD:ATTR name="#OwnedCollaborationInstanceSets" type="integer">1</XPD:ATTR>
+<XPD:ATTR name="#OwnedCollaborationInstanceSets" type="integer">2</XPD:ATTR>
 <XPD:OBJ name="OwnedCollaborationInstanceSets[0]" type="UMLCollaborationInstanceSet" guid="7SKoGFCy0EqItDTQB5WCfAAA">
 <XPD:ATTR name="Name" type="string">CollaborationInstanceSet1</XPD:ATTR>
 <XPD:REF name="RepresentedClassifier">pDF8zYEfG0aMB+/FuZzTlwAA</XPD:REF>
@@ -1946,6 +1964,15 @@
 <XPD:REF name="SendingStimuli[1]">cn+2v5FvPUq7vBeF+my0MQAA</XPD:REF>
 <XPD:ATTR name="#ReceivingStimuli" type="integer">1</XPD:ATTR>
 <XPD:REF name="ReceivingStimuli[0]">vzDFaoAla0K6wneyQTSUvwAA</XPD:REF>
+</XPD:OBJ>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedCollaborationInstanceSets[1]" type="UMLCollaborationInstanceSet" guid="P7LHXPHX6EyThVX+ZqL6KwAA">
+<XPD:ATTR name="Name" type="string">CollaborationInstanceSet2</XPD:ATTR>
+<XPD:REF name="RepresentedClassifier">pDF8zYEfG0aMB+/FuZzTlwAA</XPD:REF>
+<XPD:ATTR name="#InteractionInstanceSets" type="integer">1</XPD:ATTR>
+<XPD:OBJ name="InteractionInstanceSets[0]" type="UMLInteractionInstanceSet" guid="//C2Q9HQa0+uwjsEcRZ1aAAA">
+<XPD:ATTR name="Name" type="string">InteractionInstanceSet1</XPD:ATTR>
+<XPD:REF name="Context">P7LHXPHX6EyThVX+ZqL6KwAA</XPD:REF>
 </XPD:OBJ>
 </XPD:OBJ>
 <XPD:ATTR name="#Includes" type="integer">3</XPD:ATTR>
