@@ -84,12 +84,31 @@ Sebastian \textsc{Katszer}\\
 %\tableofcontents %robi spis tre¶ci	- 3 kompilacje
 \newpage
 \section{Automat z przekąskami }
-\subsection{Co to jest?}
+
+\subsection{Definicja tematyki}
  Automat sprzedający (automat vendingowy, ang. vending machine) – urządzenie służące do sprzedaży samoobsługowej. Można wyróżnić automaty sprzedające towary i usługi.\\
  Największymi producentami automatów vendingowych na świecie są Chiny, USA, Włochy i Hiszpania.
  Polskie przedsiębiorstwa prowadzące działalność wendingową skupia Polskie Stowarzyszenie Vendingu.
+
 \subsection{Analiza wymagań}
-\emph{Analiza wymagań}– uzgodnienie wymagań klienta i ich analiza. Celem jest określenie zakresu prac, oszacowanie czasochłonności, kosztów i czasu wykonania.\\[1cm] 
+\emph{Analiza wymagań}– uzgodnienie wymagań klienta i ich analiza. Celem jest określenie zakresu prac, oszacowanie czasochłonności, kosztów i czasu wykonania.
+
+Modelowany automat powinien udostępniać klientowi między innymi takie funkcjonalności jak:
+\begin{itemize}
+
+\item Wybór produktu,
+\item Uzyskanie informacji o cenie produktu,
+\item Możliwość zrezygnowania z transakcji,
+\item Zliczanie sumy wrzuconych pieniędzy,
+\item Możliwość uzupełniania zasobami,
+\item Wydanie zakupionego towaru,
+\item Wydanie reszty,
+\item Wyświetlenie powiadomień,
+
+\end{itemize}
+
+\vspace{2cm}
+
 \begin{tabular}{|l|p{3.5cm}|l|l|l|} \hline
 ID  & OPIS & PRIORYTET & KRYTYCZNOŚĆ & HARMONOGRAM \\ \hline
 R01 & Wydawanie reszty & Wysoki & Średnia & Release 1\\ \hline
@@ -103,17 +122,40 @@ R04 & Wydawanie produktu & Średni & Średnia & Release 1 \\ \hline
 \section{Diagram przypadków użycia}
 \emph{Diagram przypadków użycia}– graficzne przedstawienie przypadków użycia, aktorów oraz związków między nimi, występujących w danej dziedzinie przedmiotowej.
 \begin{figure}[ht]
-\centerline{\includegraphics[scale=0.6]{uzycia}}
+\centerline{\includegraphics[scale=0.6]{../Diagrams/Main}}
 \caption{Diagram przypadków użycia}
 \end{figure}%
 
 \newpage
-\subsection{Diagram sekwencji}
+\subsection{Diagramy sekwencji}
 \emph{Diagramy sekwencji} - opisują interakcje pomiędzy częściami systemu w postaci sekwencji komunikatów wymienianych między nimi.\\[1cm] 
+
+
 \begin{figure}[ht]
-\centerline{\includegraphics[scale=0.8]{sekwencje}}
-\caption{Diagram sekwencji}
+\centerline{\includegraphics[scale=0.7]{../Diagrams/kupProdukt}}
+\caption{Diagram sekwencji - Kup produkt}
 \end{figure}
+
+\begin{figure}[ht]
+\centerline{\includegraphics[scale=0.8]{../Diagrams/wybierzProdukt}}
+\caption{Diagram sekwencji - Wybierz produkt}
+\end{figure}
+
+\begin{figure}[ht]
+\centerline{\includegraphics[scale=0.7]{../Diagrams/zaplac}}
+\caption{Diagram sekwencji - Zapłać}
+\end{figure}
+
+\begin{figure}[ht]
+\centerline{\includegraphics[scale=0.8]{../Diagrams/wydajProdukt}}
+\caption{Diagram sekwencji - Wydaj produkt}
+\end{figure}
+
+\begin{figure}[ht]
+\centerline{\includegraphics[scale=0.9]{../Diagrams/rezygnacja}}
+\caption{Diagram sekwencji - Rezygnacja}
+\end{figure}
+
 
 %\bibliographystyle{unsrt}
 %\bibliography{bib2}
