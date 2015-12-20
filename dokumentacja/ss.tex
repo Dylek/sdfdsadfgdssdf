@@ -1,0 +1,162 @@
+\documentclass[a4paper, 11pt]{article}
+\usepackage[polish]{babel}
+\usepackage[MeX]{polski}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+%\usepackage{times}
+\usepackage{graphicx,wrapfig}
+%\usepackage{anysize}
+%\usepackage{tikz}
+%\usetikzlibrary{calc,through,backgrounds,positioning}
+\usepackage{anysize}
+\usepackage{float}
+%\usepackage{stmaryrd}
+%\usepackage{amssymb}
+%\usepackage{amsthm}
+%\marginsize{3cm}{3cm}{3cm}{3cm}
+%\usepackage{amsmath}
+%\usepackage{color}
+%\usepackage{listings}
+%\usepackage{enumerate}
+%\lstloadlanguages{Ada,C++}
+
+\usepackage{listings} %do impotu kodu
+\author{Marcin Jêdrzejczyk \and Sebastian Katszer }
+\title{Projekt UML Automatu z przek¹skami }
+
+
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}} % Defines a new command for the horizontal lines, change thickness here
+\newtheorem{defi}{Definicja}
+\renewcommand{\contentsname}{Spis treœci}
+\renewcommand{\refname}{Bibliografia}
+\renewcommand{\figurename}{Rysunek}
+
+
+\begin{document}
+
+%\maketitle	%robi stron? tytu?ow±
+\begin{titlepage}
+
+
+\center % Center everything on the page
+%----------------------------------------------------------------------------------------
+%	HEADING SECTIONS
+%----------------------------------------------------------------------------------------
+
+\textsc{\LARGE Akademia Górniczo-Hutnicza    \\im. Stanis³awa Staszica w Krakowie}\\[1.5cm] % Name of your university/college
+\textsc{\Large Analiza i modelowanie oprogramowania}\\[0.5cm] % Major heading such as course name
+%\textsc{\large Minor Heading}\\[0.5cm] % Minor heading such as course title
+
+%----------------------------------------------------------------------------------------
+%	TITLE SECTION
+%----------------------------------------------------------------------------------------
+
+\HRule \\[0.4cm]
+{ \huge \bfseries Projekt UML Automatu z przek¹skami}\\[0.4cm] % Title of your document
+\HRule \\[5.5cm]
+ 
+%----------------------------------------------------------------------------------------
+%	AUTHOR SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{minipage}{0.4\textwidth}
+\begin{flushleft} \large 
+\emph{Autorzy:}\\
+Marcin \textsc{Jêdrzejczyk} \\
+Sebastian \textsc{Katszer}\\
+
+\end{flushleft}
+\end{minipage}
+~
+\begin{minipage}{0.4\textwidth}
+\begin{flushright} \large
+\emph{Prowadz¹cy:}\\
+ Dr in¿. Wojciech \textsc{Szmuc} % Supervisor's Name
+\end{flushright}
+\end{minipage} \\[5cm]
+
+{\large \today}\\[3cm]
+\vfill
+\end{titlepage}
+%----------------------------------------------------------------------------------------
+%	DOCUMENT SECTION
+%----------------------------------------------------------------------------------------
+%\tableofcontents %robi spis tre¶ci	- 3 kompilacje
+\newpage
+\section{Automat z przek¹skami }
+
+\subsection{Definicja tematyki}
+ Automat sprzedaj¹cy (automat vendingowy, ang. vending machine) – urz¹dzenie s³u¿¹ce do sprzeda¿y samoobs³ugowej. Mo¿na wyró¿niæ automaty sprzedaj¹ce towary i us³ugi.\\
+ Najwiêkszymi producentami automatów vendingowych na œwiecie s¹ Chiny, USA, W³ochy i Hiszpania.
+ Polskie przedsiêbiorstwa prowadz¹ce dzia³alnoœæ wendingow¹ skupia Polskie Stowarzyszenie Vendingu.
+
+\subsection{Analiza wymagañ}
+\emph{Analiza wymagañ}– uzgodnienie wymagañ klienta i ich analiza. Celem jest okreœlenie zakresu prac, oszacowanie czasoch³onnoœci, kosztów i czasu wykonania.
+
+Modelowany automat powinien udostêpniaæ klientowi miêdzy innymi takie funkcjonalnoœci jak:
+\begin{itemize}
+
+\item Wybór produktu,
+\item Uzyskanie informacji o cenie produktu,
+\item Mo¿liwoœæ zrezygnowania z transakcji,
+\item Zliczanie sumy wrzuconych pieniêdzy,
+\item Mo¿liwoœæ uzupe³niania zasobami,
+\item Wydanie zakupionego towaru,
+\item Wydanie reszty,
+\item Wyœwietlenie powiadomieñ,
+
+\end{itemize}
+
+\vspace{2cm}
+
+\begin{tabular}{|l|p{3.5cm}|l|l|l|} \hline
+ID  & OPIS & PRIORYTET & KRYTYCZNOŒÆ & HARMONOGRAM \\ \hline
+R01 & Wydawanie reszty & Wysoki & Œrednia & Release 1\\ \hline
+R02 & Dostêp techniczny dla osób upowa¿nionych & Wysoki & Wysoka & Release 1 \\ \hline
+R03 & Sposób inicjalizacji & Œredni & Œrednia & Release 1\\ \hline
+R04 & Wydawanie produktu & Œredni & Œrednia & Release 1 \\ \hline
+\end{tabular}\\
+
+
+\newpage
+\section{Diagram przypadków u¿ycia}
+\emph{Diagram przypadków u¿ycia}– graficzne przedstawienie przypadków u¿ycia, aktorów oraz zwi¹zków miêdzy nimi, wystêpuj¹cych w danej dziedzinie przedmiotowej.
+\begin{figure}[ht]
+\centerline{\includegraphics[scale=0.6]{../Diagrams/Main}}
+\caption{Diagram przypadków u¿ycia}
+\end{figure}%
+
+\newpage
+\subsection{Diagramy sekwencji}
+\emph{Diagramy sekwencji} - opisuj¹ interakcje pomiêdzy czêœciami systemu w postaci sekwencji komunikatów wymienianych miêdzy nimi.\\[1cm] 
+
+
+\begin{figure}[ht]
+\centerline{\includegraphics[scale=0.7]{../Diagrams/kupProdukt}}
+\caption{Diagram sekwencji - Kup produkt}
+\end{figure}
+
+\begin{figure}[ht]
+\centerline{\includegraphics[scale=0.8]{../Diagrams/wybierzProdukt}}
+\caption{Diagram sekwencji - Wybierz produkt}
+\end{figure}
+
+\begin{figure}[ht]
+\centerline{\includegraphics[scale=0.7]{../Diagrams/zaplac}}
+\caption{Diagram sekwencji - Zap³aæ}
+\end{figure}
+
+\begin{figure}[ht]
+\centerline{\includegraphics[scale=0.8]{../Diagrams/wydajProdukt}}
+\caption{Diagram sekwencji - Wydaj produkt}
+\end{figure}
+
+\begin{figure}[ht]
+\centerline{\includegraphics[scale=0.9]{../Diagrams/rezygnacja}}
+\caption{Diagram sekwencji - Rezygnacja}
+\end{figure}
+
+
+%\bibliographystyle{unsrt}
+%\bibliography{bib2}
+\end{document}
