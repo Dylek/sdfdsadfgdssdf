@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.10.6)  9 JAN 2016 12:37
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.10.6)  9 JAN 2016 13:28
 entering extended mode
 **dokumentacjaUML.tex
 (C:\Users\Dylek\Documents\GitHub\UML\dokumentacja\dokumentacjaUML.tex
@@ -533,22 +533,22 @@ File: ../Diagrams/rezygnacja.jpg Graphic file (type jpg)
 Package pdftex.def Info: ../Diagrams/rezygnacja.jpg used on input line 156.
 (pdftex.def)             Requested size: 470.65402pt x 351.40962pt.
  [6 <C:/Users/Dylek/Documents/GitHub/UML/Diagrams/wydajProdukt.jpg>]
-<../Diagrams/diagramAktywnosci.png, id=41, 624.08156pt x 448.67625pt>
-File: ../Diagrams/diagramAktywnosci.png Graphic file (type png)
+<../Diagrams/diagramAktywnosci2.png, id=41, 647.41875pt x 448.67625pt>
+File: ../Diagrams/diagramAktywnosci2.png Graphic file (type png)
 
-<use ../Diagrams/diagramAktywnosci.png>
-Package pdftex.def Info: ../Diagrams/diagramAktywnosci.png used on input line 1
-62.
-(pdftex.def)             Requested size: 561.66821pt x 403.8049pt.
+<use ../Diagrams/diagramAktywnosci2.png>
+Package pdftex.def Info: ../Diagrams/diagramAktywnosci2.png used on input line 
+162.
+(pdftex.def)             Requested size: 582.67148pt x 403.8049pt.
  [7 <C:/Users/Dylek/Documents/GitHub/UML/Diagrams/rezygnacja.jpg>]
-<../Diagrams/stanyAdmin.jpg, id=46, 715.92468pt x 225.84375pt>
+<../Diagrams/stanyAdmin.jpg, id=45, 715.92468pt x 225.84375pt>
 File: ../Diagrams/stanyAdmin.jpg Graphic file (type jpg)
 
 <use ../Diagrams/stanyAdmin.jpg>
 Package pdftex.def Info: ../Diagrams/stanyAdmin.jpg used on input line 168.
 (pdftex.def)             Requested size: 644.32626pt x 203.25748pt.
- [8 <C:/Users/Dylek/Documents/GitHub/UML/Diagrams/diagramAktywnosci.png>]
-<../Diagrams/stanyPracownik.jpg, id=51, 782.17218pt x 352.31625pt>
+ [8 <C:/Users/Dylek/Documents/GitHub/UML/Diagrams/diagramAktywnosci2.png>]
+<../Diagrams/stanyPracownik.jpg, id=49, 782.17218pt x 352.31625pt>
 File: ../Diagrams/stanyPracownik.jpg Graphic file (type jpg)
 
 <use ../Diagrams/stanyPracownik.jpg>
@@ -556,39 +556,44 @@ Package pdftex.def Info: ../Diagrams/stanyPracownik.jpg used on input line 173.
 
 (pdftex.def)             Requested size: 703.94847pt x 317.08168pt.
 
-<../Diagrams/StanVending.png, id=52, 851.43094pt x 455.45157pt>
+<../Diagrams/StanVending.png, id=50, 851.43094pt x 455.45157pt>
 File: ../Diagrams/StanVending.png Graphic file (type png)
 
 <use ../Diagrams/StanVending.png>
 Package pdftex.def Info: ../Diagrams/StanVending.png used on input line 178.
 (pdftex.def)             Requested size: 595.9976pt x 318.81392pt.
  [9 <C:/Users/Dylek/Documents/GitHub/UML/Diagrams/stanyAdmin.jpg> <C:/Users/Dyl
-ek/Documents/GitHub/UML/Diagrams/stanyPracownik.jpg>] <../Diagrams/diagramKlas2
-.jpg, id=56, 546.54187pt x 671.50874pt>
-File: ../Diagrams/diagramKlas2.jpg Graphic file (type jpg)
+ek/Documents/GitHub/UML/Diagrams/stanyPracownik.jpg>] <../Diagrams/diagramKlas3
+.png, id=54, 567.62062pt x 684.30656pt>
+File: ../Diagrams/diagramKlas3.png Graphic file (type png)
 
-<use ../Diagrams/diagramKlas2.jpg>
-Package pdftex.def Info: ../Diagrams/diagramKlas2.jpg used on input line 184.
-(pdftex.def)             Requested size: 382.57669pt x 470.05292pt.
+<use ../Diagrams/diagramKlas3.png>
+Package pdftex.def Info: ../Diagrams/diagramKlas3.png used on input line 185.
+(pdftex.def)             Requested size: 510.85382pt x 615.87021pt.
  [10 <C:/Users/Dylek/Documents/GitHub/UML/Diagrams/StanVending.png>]
-<../Diagrams/diagramObiektow2.jpg, id=60, 680.5425pt x 546.54187pt>
+<../Diagrams/diagramObiektow2.jpg, id=58, 680.5425pt x 546.54187pt>
 File: ../Diagrams/diagramObiektow2.jpg Graphic file (type jpg)
 
 <use ../Diagrams/diagramObiektow2.jpg>
 Package pdftex.def Info: ../Diagrams/diagramObiektow2.jpg used on input line 19
-1.
-(pdftex.def)             Requested size: 408.32864pt x 327.92764pt.
- [11 <C:/Users/Dylek/Documents/GitHub/UML/Diagrams/diagramKlas2.jpg>] [12 <C:/U
-sers/Dylek/Documents/GitHub/UML/Diagrams/diagramObiektow2.jpg>]
+3.
+(pdftex.def)             Requested size: 544.43474pt x 437.23409pt.
+
+Overfull \hbox (89.19063pt too wide) in paragraph at lines 193--194
+[][] 
+ []
+
+[11 <C:/Users/Dylek/Documents/GitHub/UML/Diagrams/diagramKlas3.png>] [12 <C:/Us
+ers/Dylek/Documents/GitHub/UML/Diagrams/diagramObiektow2.jpg>]
 (C:\Users\Dylek\Documents\GitHub\UML\dokumentacja\dokumentacjaUML.aux) ) 
 Here is how much of TeX's memory you used:
  3725 strings out of 493921
- 48918 string characters out of 3147282
+ 48923 string characters out of 3147282
  105055 words of memory out of 3000000
  6956 multiletter control sequences out of 15000+200000
  17364 words of font info for 39 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 27i,8n,32p,247b,262s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 27i,8n,32p,438b,262s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Us
 ers\Dylek\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecti1095.
 pk> <C:\Users\Dylek\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600
@@ -603,9 +608,9 @@ sers\Dylek\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\eccc1440
 .pk> <C:\Users\Dylek\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi60
 0\eccc1728.pk><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy1
 0.pfb>
-Output written on dokumentacjaUML.pdf (13 pages, 894657 bytes).
+Output written on dokumentacjaUML.pdf (13 pages, 792095 bytes).
 PDF statistics:
- 366 PDF objects out of 1000 (max. 8388607)
+ 371 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  61 words of extra memory for PDF output out of 10000 (max. 10000000)
 
