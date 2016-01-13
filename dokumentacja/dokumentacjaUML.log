@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.10.6)  9 JAN 2016 13:28
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.10.6)  13 JAN 2016 20:59
 entering extended mode
 **dokumentacjaUML.tex
 (C:\Users\Dylek\Documents\GitHub\UML\dokumentacja\dokumentacjaUML.tex
@@ -39,7 +39,7 @@ Package: babel 2008/07/08 v3.8m The Babel package
 ("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\bblopts.cfg"
 File: bblopts.cfg 2006/07/31 v1.0 MiKTeX 'babel' configuration
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\babel\polish.ldf"
+("C:\Program Files\MiKTeX 2.9\tex\latex\babel-polish\polish.ldf"
 Language: polish 2005/03/31 v1.2l Polish support from the babel system
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.def"
@@ -563,15 +563,19 @@ File: ../Diagrams/StanVending.png Graphic file (type png)
 Package pdftex.def Info: ../Diagrams/StanVending.png used on input line 178.
 (pdftex.def)             Requested size: 595.9976pt x 318.81392pt.
  [9 <C:/Users/Dylek/Documents/GitHub/UML/Diagrams/stanyAdmin.jpg> <C:/Users/Dyl
-ek/Documents/GitHub/UML/Diagrams/stanyPracownik.jpg>] <../Diagrams/diagramKlas3
-.png, id=54, 567.62062pt x 684.30656pt>
-File: ../Diagrams/diagramKlas3.png Graphic file (type png)
+ek/Documents/GitHub/UML/Diagrams/stanyPracownik.jpg>] <../Diagrams/diagramKlas4
+.png, id=54, 617.30624pt x 755.82375pt>
+File: ../Diagrams/diagramKlas4.png Graphic file (type png)
 
-<use ../Diagrams/diagramKlas3.png>
-Package pdftex.def Info: ../Diagrams/diagramKlas3.png used on input line 185.
-(pdftex.def)             Requested size: 510.85382pt x 615.87021pt.
+<use ../Diagrams/diagramKlas4.png>
+Package pdftex.def Info: ../Diagrams/diagramKlas4.png used on input line 185.
+(pdftex.def)             Requested size: 555.57048pt x 680.23509pt.
  [10 <C:/Users/Dylek/Documents/GitHub/UML/Diagrams/StanVending.png>]
-<../Diagrams/diagramObiektow2.jpg, id=58, 680.5425pt x 546.54187pt>
+Overfull \vbox (41.72789pt too high) has occurred while \output is active []
+
+
+[11 <C:/Users/Dylek/Documents/GitHub/UML/Diagrams/diagramKlas4.png>]
+<../Diagrams/diagramObiektow2.jpg, id=61, 680.5425pt x 546.54187pt>
 File: ../Diagrams/diagramObiektow2.jpg Graphic file (type jpg)
 
 <use ../Diagrams/diagramObiektow2.jpg>
@@ -583,12 +587,11 @@ Overfull \hbox (89.19063pt too wide) in paragraph at lines 193--194
 [][] 
  []
 
-[11 <C:/Users/Dylek/Documents/GitHub/UML/Diagrams/diagramKlas3.png>] [12 <C:/Us
-ers/Dylek/Documents/GitHub/UML/Diagrams/diagramObiektow2.jpg>]
+[12 <C:/Users/Dylek/Documents/GitHub/UML/Diagrams/diagramObiektow2.jpg>]
 (C:\Users\Dylek\Documents\GitHub\UML\dokumentacja\dokumentacjaUML.aux) ) 
 Here is how much of TeX's memory you used:
- 3725 strings out of 493921
- 48923 string characters out of 3147282
+ 3726 strings out of 493921
+ 48984 string characters out of 3147282
  105055 words of memory out of 3000000
  6956 multiletter control sequences out of 15000+200000
  17364 words of font info for 39 fonts, out of 3000000 for 9000
@@ -608,7 +611,7 @@ sers\Dylek\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\eccc1440
 .pk> <C:\Users\Dylek\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi60
 0\eccc1728.pk><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy1
 0.pfb>
-Output written on dokumentacjaUML.pdf (13 pages, 792095 bytes).
+Output written on dokumentacjaUML.pdf (13 pages, 754851 bytes).
 PDF statistics:
  371 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
